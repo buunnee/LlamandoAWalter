@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LlamandoAWalter</string>
+    <string name="call_button_desc">Botón para llamar a Walter White</string>
+    <string name="call_status_initial">Pulsa para llamar a Walter White</string>
+    <string name="call_status_calling">Llamando a Walter White...</string>
+    <string name="call_status_ended">Llamada terminada</string>
+</resources>
