@@ -13,33 +13,40 @@
         android:orientation="vertical"
         android:gravity="center"
         android:padding="16dp"
-        tools:ignore="ExtraText">
+        tools:ignore="ExtraText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <!-- Textto -->
+
+        <!-- Imagen de walter -->
+
+        <!-- Imagen de teléfono verde para iniciar la llamada -->
+
         <TextView
             android:id="@+id/textViewStatus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pulsa para llamar a Walter White"
-            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
             android:gravity="center"
-            android:layout_marginBottom="16dp" />
+            android:text="Pulsa para llamar a Walter White"
+            android:textSize="18sp" />
 
-        <!-- Imagen de walter -->
         <ImageView
             android:id="@+id/imageViewWalter"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/walterwhite"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/walterwhite" />
 
-        <!-- Imagen de teléfono verde para iniciar la llamada -->
         <ImageButton
             android:id="@+id/imageButtonCall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/llamar"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="@string/call_button_desc" />
+            android:contentDescription="@string/call_button_desc"
+            android:src="@drawable/llamar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
